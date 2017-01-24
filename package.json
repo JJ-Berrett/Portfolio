@@ -13,6 +13,7 @@
   "author": "JJ Berrett",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "devicons": "^1.8.0",
     "express": "^4.14.0"
   }
 }

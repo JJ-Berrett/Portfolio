@@ -237,7 +237,6 @@ hr{
 	top:50%;
 	left:50%;
 	margin:-32px 0 0 -32px;
-	background: url('../images/preloader.gif') no-repeat;
 }
 
 /*------------------
@@ -302,7 +301,7 @@ hr{
 	padding:7px 30px;
 	min-width:120px;
 	font-size: 16px;
-	font-weight: 6400;
+	font-weight: 100;
 	color:#89949C;
 	text-align: center;
 	background: none;
@@ -549,7 +548,7 @@ hr{
 #screen {
 	width: 306px;
     height: 541px;
-    background: #EEE;
+	background: url('../../assets/images/NSCONF.PNG') center;
     position: relative;
     top: 79px;
     left: 23px;
@@ -657,7 +656,6 @@ hr{
 -----------------------*/
 
 #about{
-	background:url() no-repeat;
 	/*background-size: cover;*/
 	background-attachment: fixed;
 }
@@ -742,54 +740,7 @@ hr{
 ---- Twitter Styles ---
 -----------------------*/
 
-#the-rave{
-	padding:80px 0 100px;
-	color:#FFF;
-	background-image: url(../images/polygon.png);
-}
 
-#the-rave h1{
-	margin:0 0 10px;
-	font-size: 24px;
-	letter-spacing: .02em;
-}
-
-#the-rave .fa-twitter{
-	font-size: 42px;
-}
-
-#the-rave p{
-	font-size:18px;
-}
-
-#the-rave .tweet{
-	margin-bottom: 40px;
-	font-size: 24px;
-	font-weight: 300;
-}
-
-#the-rave .timePosted{
-	margin-bottom: 0px;
-}
-
-#the-rave a{
-	color:#202C36;
-	opacity:.7;
-	-webkit-transition: opacity .15s ease-out;
-	transition: opacity .15s ease-out;
-}
-
-#the-rave a:hover{
-	opacity:1;
-}
-
-#twitter-slider{
-	margin:50px 0 0;
-	padding:0;
-	border:none;
-	box-shadow:none;
-	background:transparent;
-}
 
 /* Control Nav */
 #twitter-slider .flex-control-nav {bottom: -90px;}
@@ -954,7 +905,6 @@ hr{
 -----------------------*/
 
 #project-viewer{
-	background: url('../images/header-bg.png') no-repeat;
 	background-attachment: fixed;
 	background-size: 100%;
 	background-size: cover;
@@ -1016,7 +966,6 @@ hr{
 }
 
 #project-viewer-content .project-media.video-container{
-	background: url(../images/video-loader.gif) center center no-repeat;
 	background-color: #000;
 }
 
@@ -1411,9 +1360,6 @@ hr{
     opacity:1;
 }
 
-#contact-form .form-control:focus:-ms-placeholder {
-    opacity:1;
-}
 
 #contact-form .btn,
 #contact-form .btn:focus{
@@ -2062,7 +2008,6 @@ hr{
 
 .coverImage {
     position: absolute;
-    background-image: url('../../assets/images/projects/hungryHarvestCode.png');
     background-size: auto 100%;
     width: 50%;
     height: 100%;
@@ -2070,7 +2015,6 @@ hr{
 
 .coverImage2 {
     position: absolute;
-    background-image: url('../../assets/images/projects/scLettersCode.png');
     background-size: auto 100%;
     width: 50%;
     height: 100%;
@@ -2131,7 +2075,6 @@ hr{
 .widget-photo1 {
   width: 100%;
   height: 335px;
-  background: url("../../assets/images/projects/YoutubeSearchReactJS.png") no-repeat center/cover;
   -webkit-transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
   -moz-transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -2160,7 +2103,6 @@ hr{
 .widget-photo2 {
   width: 100%;
   height: 335px;
-  background: url("../../assets/images/projects/devMntInt.png") no-repeat center/cover;
   -webkit-transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
   -moz-transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -2189,7 +2131,6 @@ hr{
 .widget-photo3 {
   width: 100%;
   height: 335px;
-  background: url("../../assets/images/projects/5dayWeatherReact.png") no-repeat center/cover;
   -webkit-transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
   -moz-transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -2219,7 +2160,6 @@ hr{
 .widget-photo4 {
   width: 100%;
   height: 335px;
-  background: url("../../assets/images/projects/ReactJSBlog.png") no-repeat center/cover;
   -webkit-transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
   -moz-transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
