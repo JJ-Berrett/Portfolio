@@ -422,7 +422,7 @@ hr{
 }
 
 .portfolio-name {
-	font-family: 'Megrim', cursive;
+	font-family: 'Megrim', sans-serif;
 	text-transform: uppercase;
 }
 /*-----------------------
@@ -536,6 +536,12 @@ hr{
 }
 
 
+#alexa {
+	background-image: url('../../assets/images/echo.png');
+	width: 250px;
+	height: 400px;
+	margin: 0 auto;
+}
 
 /*iPhone Skills*/
 #iphone {
