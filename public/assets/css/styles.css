@@ -37,6 +37,12 @@ a{
 	transition:color .15s ease-out;
 }
 
+.logo-box{
+	font-family: "Megrim", sans-serif;
+	font-size: 40px;
+	margin-top: 15px;
+}
+
 a:hover,
 a:focus{
 	color: #89949C;
@@ -1630,6 +1636,8 @@ hr{
 
 	#main-nav, #main-nav.scrolled{
 		background: #FFF;
+		padding-top: 20px;
+		padding-right: 10px;
 		border-bottom:1px solid #b9c4cC;
 	}
 
