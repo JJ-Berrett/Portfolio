@@ -264,8 +264,7 @@ hr{
 }
 
 #main-nav.scrolled .container{
-	padding-top:12px;
-	padding-bottom:12px;
+	padding-bottom:5px;
 }
 
 #main-nav.scrolled{
@@ -1636,7 +1635,7 @@ hr{
 
 	#main-nav, #main-nav.scrolled{
 		background: #FFF;
-		padding-top: 20px;
+		padding-top: 10px;
 		padding-right: 10px;
 		border-bottom:1px solid #b9c4cC;
 	}

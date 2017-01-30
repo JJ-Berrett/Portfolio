@@ -29,7 +29,7 @@ $(document).ready(function(){
 	$('a.scrollto').click(function(e){
 		e.preventDefault();
 		var target =$(this).attr('href');
-		$('html, body').stop().animate({scrollTop: $(target).offset().top}, 1600, 'easeInOutExpo',
+		$('html, body').stop().animate({scrollTop: $(target).offset().top}, 1700, 'easeInOutExpo',
 			function(){window.location.hash =target;});
 
 		if ($('.navbar-collapse').hasClass('in')){
