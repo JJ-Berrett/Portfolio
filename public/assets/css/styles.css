@@ -368,7 +368,7 @@ hr{
 	height:100%;
 	min-height:860px;
 	margin-bottom:-64px;
-	background: url('https://s3-us-west-2.amazonaws.com/jj-berrett-website-photos/Mountain.jpg') 0 0 / cover;;
+	background: url('../images/Mountain.jpg') 0 0 / cover;;
 	/*background-attachment: fixed;*/
 	/*background-size: 100%;*/
 	/*background-size: cover;*/
@@ -569,7 +569,7 @@ hr{
 
 /*iPhone Skills*/
 #iphone {
-	background-image: url('https://s3-us-west-2.amazonaws.com/jj-berrett-website-photos/iphone7.png');
+	background-image: url('../images/iphone7.png');
 	width: 350px;
 	height: 700px;
 	margin: 0 auto;
@@ -578,7 +578,7 @@ hr{
 #screen {
 	width: 306px;
     height: 541px;
-	background: url('https://s3-us-west-2.amazonaws.com/jj-berrett-website-photos/NSCONF.PNG') center;
+	background: url('../images/NSCONF.PNG') center;
     position: relative;
     top: 79px;
     left: 23px;
