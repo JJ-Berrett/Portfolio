@@ -2,7 +2,7 @@
   "name": "JJBerrett.com",
   "version": "1.0.0",
   "engines": {
-    "node": "4.4.6"
+    "node": "8.10"
   },
   "description": "Professional portfolio site for JJ Berrett",
   "main": "server.js",
